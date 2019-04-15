@@ -1,0 +1,82 @@
+body {
+  background-color: #e0dbd7;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/** HEADER **/
+#header {
+  color: #336699;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-align: right;
+}
+
+#home {
+  margin-right: 12px;
+  color: #336699;
+}
+
+#contact {
+  color: #336699;
+}
+
+#footer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+#todo {
+  letter-spacing: 2px;
+  margin: 150px 0 0 50px;
+  opacity: .5;
+}
+
+/** containers **/
+#top_container {
+  position: fixed;
+  top: 220px;
+}
+
+#bottom_container {
+  position: absolute;
+  top: 2500px;
+  height: 2000px;
+  width: 100%;
+}
+
+.message {
+  padding: 30px 30px 30px 50px;
+  font-family: Monaco, 'Nanum Gothic', sans-serif;
+  font-size: 28px;
+  color: #E9967A;
+  width: 680px;
+}
+
+#picture {
+  width: 680px;
+  padding: 0 30px;
+  text-align: right;
+}
+
+a {
+  color: #336699;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
